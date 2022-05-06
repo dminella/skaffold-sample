@@ -6,3 +6,5 @@ eval $(minikube -p custom docker-env)
 
 4. app-a/skaffold run
 5. app-b/skaffold run
+
+6. skaffold run
