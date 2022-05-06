@@ -1,0 +1,9 @@
+apiVersion: skaffold/v2beta28
+kind: Config
+build:
+  artifacts:
+  - image: app-a
+deploy:
+  kubectl:
+    manifests:
+      - k8s-*
